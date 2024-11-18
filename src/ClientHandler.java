@@ -1,6 +1,5 @@
 import java.io.*;
 import java.net.Socket;
-import java.util.concurrent.Callable;
 
 class ClientHandler implements Runnable {
     private final Socket clientSocket;
